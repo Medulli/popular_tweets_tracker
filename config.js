@@ -11,7 +11,7 @@ module.exports = {
 		tweet_count: 10,
 		hashtag: '#ChampionsLeague',
 		tweet_timeout: 10, //in minutes
-		cleanup_interval: 1 //in minutes
+		cleanup_interval: 5 //in minutes
 	}
 
 };
