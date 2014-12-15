@@ -1,0 +1,27 @@
+{
+  "name": "popular_tweets_tracker",
+  "version": "1.0.0",
+  "description": "Tracks the most retweeted tweets given a specific hashtag and displays them in the console.",
+  "main": "server.js",
+  "scripts": {
+    "build": "npm install",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "twitter",
+    "hashtag",
+    "popular",
+    "track"
+  ],
+  "author": "Julien Michelet",
+  "license": "ISC",
+  "dependencies": {
+	"oauth": "0.9.9",
+    "mongoose": "^3.8.17",
+	"node-schedule": "0.1.13"
+  },
+  "repository": {
+	"type": "git",
+	"url": "http://github.com/"
+  }
+}
